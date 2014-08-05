@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+find_package(Boost REQUIRED)
+
+set_and_check(boost-endian_INCLUDE_DIRS "@PACKAGE_boost-endian_INCLUDE_DIRS@")
+
+#include ("${CMAKE_CURRENT_LIST_DIR}/BoostEndianTargets.cmake" )
