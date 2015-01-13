@@ -5,8 +5,8 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 include(ExternalProject)
 
 ExternalProject_Add(endian
-  GIT_REPOSITORY "https://github.com/Beman/endian.git"
-  GIT_TAG master
+  GIT_REPOSITORY "https://github.com/boostorg/endian.git"
+  GIT_TAG develop
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND ""
